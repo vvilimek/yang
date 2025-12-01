@@ -1,0 +1,103 @@
+{
+  "ietf-sid-file:sid-file": {
+    "module-name": "ietf-voucher-request",
+    "module-revision": "2021-05-20",
+    "sid-file-status": "unpublished",
+    "dependency-revision": [
+      {
+        "module-name": "ietf-restconf",
+        "module-revision": "2017-01-26"
+      },
+      {
+        "module-name": "ietf-voucher",
+        "module-revision": "2018-05-09"
+      }
+    ],
+    "assignment-range": [
+      {
+        "entry-point": "2550",
+        "size": "50"
+      }
+    ],
+    "item": [
+      {
+        "namespace": "module",
+        "identifier": "ietf-voucher-request",
+        "status": "unstable",
+        "sid": "2550"
+      },
+      {
+        "namespace": "data",
+        "identifier": "/ietf-voucher-request:voucher",
+        "status": "unstable",
+        "sid": "2551"
+      },
+      {
+        "namespace": "data",
+        "identifier": "/ietf-voucher-request:voucher/assertion",
+        "status": "unstable",
+        "sid": "2552"
+      },
+      {
+        "namespace": "data",
+        "identifier": "/ietf-voucher-request:voucher/created-on",
+        "status": "unstable",
+        "sid": "2553"
+      },
+      {
+        "namespace": "data",
+        "identifier": "/ietf-voucher-request:voucher/domain-cert-revocation-checks",
+        "status": "unstable",
+        "sid": "2554"
+      },
+      {
+        "namespace": "data",
+        "identifier": "/ietf-voucher-request:voucher/expires-on",
+        "status": "unstable",
+        "sid": "2555"
+      },
+      {
+        "namespace": "data",
+        "identifier": "/ietf-voucher-request:voucher/idevid-issuer",
+        "status": "unstable",
+        "sid": "2556"
+      },
+      {
+        "namespace": "data",
+        "identifier": "/ietf-voucher-request:voucher/last-renewal-date",
+        "status": "unstable",
+        "sid": "2557"
+      },
+      {
+        "namespace": "data",
+        "identifier": "/ietf-voucher-request:voucher/nonce",
+        "status": "unstable",
+        "sid": "2558"
+      },
+      {
+        "namespace": "data",
+        "identifier": "/ietf-voucher-request:voucher/pinned-domain-cert",
+        "status": "unstable",
+        "sid": "2559"
+      },
+      {
+        "namespace": "data",
+        "identifier": "/ietf-voucher-request:voucher/prior-signed-voucher-request",
+        "status": "unstable",
+        "sid": "2560"
+      },
+      {
+        "namespace": "data",
+        "identifier": "/ietf-voucher-request:voucher/proximity-registrar-cert",
+        "status": "unstable",
+        "sid": "2561"
+      },
+      {
+        "namespace": "data",
+        "identifier": "/ietf-voucher-request:voucher/serial-number",
+        "status": "unstable",
+        "sid": "2562"
+      }
+    ]
+  }
+}
