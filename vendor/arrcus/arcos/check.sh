@@ -1,4 +1,4 @@
-#!/bin/bash -xv
+#!/bin/bash
 #
 # Vendor-specific check script. Assumes that pyang is on path and that
 # all standard modules are on its internal module path.
@@ -13,7 +13,7 @@
 platform_dir="vendor/arrcus/"
 
 # NOTE: please just have the directories you are checking here
-to_check="arcos/v521"
+to_check="arcos/v821"
 
 debug=0
 
